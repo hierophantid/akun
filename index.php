@@ -97,19 +97,42 @@ $data_aset = [
 
     <!-- Data Hibah Berdasarkan Asal & Tujuan -->
     <div class="card shadow-sm p-3 mt-4">
-        <h6 class="section-title">Data Hibah Berdasarkan Asal & Tujuan</h6>
-        <div class="row">
-            <div class="col-md-4">
-                <p><strong>Asal Hibah:</strong><br>Kementerian<br>Pemerintah Pusat<br>Lembaga Donor</p>
-            </div>
-            <div class="col-md-4">
-                <p><strong>Tujuan Hibah:</strong><br>UPTD<br>Kabupaten/Kota<br>Kelompok Tani</p>
-            </div>
-            <div class="col-md-4">
-                <p><strong>Status Distribusi:</strong><br>Selesai<br>Proses<br>Belum Terealisasi</p>
-            </div>
-        </div>
+    <h6 class="section-title">Data Hibah Berdasarkan Asal & Tujuan</h6>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered text-center align-middle">
+            <thead class="table-primary">
+                <tr>
+                    <th>Asal Hibah</th>
+                    <th>Tujuan Hibah</th>
+                    <th>Status Distribusi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kementerian</td>
+                    <td>UPTD</td>
+                    <td>
+                        <span class="text-success fw-semibold">✅ Selesai</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pemerintah Pusat</td>
+                    <td>Kabupaten/Kota</td>
+                    <td>
+                        <span class="text-warning fw-semibold">⏳ Proses</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lembaga Donor</td>
+                    <td>Kelompok Tani</td>
+                    <td>
+                        <span class="text-danger fw-semibold">❌ Belum Terealisasi</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+</div>
 
     <!-- Dokumen & Monitoring -->
     <div class="row g-4 mt-4">
